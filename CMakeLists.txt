@@ -8,7 +8,7 @@ project(libhat)
 
 option(LIBHAT_STATIC_C_LIB "Build a static version of the C library" OFF)
 option(LIBHAT_SHARED_C_LIB "Build a shared version of the C library" OFF)
-option(LIBHAT_INSTALL_TARGET "Creates install rules for the libhat target" ON)
+option(LIBHAT_INSTALL_TARGET "Creates install rules for the libhat target" OFF)
 option(LIBHAT_DISABLE_SSE "Disables SSE scanning" OFF)
 option(LIBHAT_DISABLE_AVX512 "Disables AVX512 scanning" OFF)
 option(LIBHAT_TESTING "Enable tests" OFF)
